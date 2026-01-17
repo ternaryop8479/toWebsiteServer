@@ -24,7 +24,7 @@ ARFLAGS = rcs
 
 # 安装路径
 INSTALL_LIB_PATH = /usr/local/lib
-INSTALL_INCLUDE_PATH = /usr/local/include/$(PROJECT_NAME)
+INSTALL_INCLUDE_PATH = /usr/local/include/
 
 # 默认目标
 .PHONY: all clean build install uninstall dirs
